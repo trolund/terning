@@ -5,10 +5,9 @@ Hva så drengene, husk lige at læse det her, det er vigtigt, det er jo en READM
 
 ReadMe er muligvis det vigtigste i dette projekt!
 
-# random dice
+# Random dice
 ```sh
   int d3;
   d3 = (int) Math.floor(Math.random() * 6);
-					           
 	return d3 + 1;   
 ```
