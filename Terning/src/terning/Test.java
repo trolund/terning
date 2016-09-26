@@ -20,7 +20,7 @@ public class Test {
 			boolean x = false;
 			int rollint = roll.roll();
 			
-			if(rollint >= 1 || rollint <= 6)
+			if(rollint >= 1 && rollint <= 6)
 			x = true;
 			
 			assertEquals(true, x);
